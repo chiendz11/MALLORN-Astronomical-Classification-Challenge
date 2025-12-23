@@ -1,0 +1,44 @@
+{
+    "lgb": {
+        "learning_rate": 0.007171669428025716,
+        "num_leaves": 88,
+        "max_depth": 8,
+        "min_child_samples": 59,
+        "subsample": 0.7907545168704323,
+        "colsample_bytree": 0.6199155567075644,
+        "reg_alpha": 0.4175264630662017,
+        "reg_lambda": 2.7206397245388487,
+        "scale_pos_weight": 30.189636663864377,
+        "n_estimators": 10000,
+        "objective": "binary",
+        "boosting_type": "dart",
+        "metric": "binary_logloss",
+        "verbose": -1
+    },
+    "xgb": {
+        "learning_rate": 0.08254982951861715,
+        "max_depth": 6,
+        "min_child_weight": 8,
+        "gamma": 2.6542978722989075,
+        "subsample": 0.7106937946194638,
+        "colsample_bytree": 0.6051441346854033,
+        "reg_alpha": 0.8494718160773136,
+        "reg_lambda": 2.3647565105630317,
+        "scale_pos_weight": 23.78764987396849,
+        "n_estimators": 10000,
+        "objective": "binary:logistic",
+        "max_delta_step": 1
+    },
+    "cat": {
+        "learning_rate": 0.005046791440166934,
+        "depth": 9,
+        "l2_leaf_reg": 14.017401606643784,
+        "bagging_temperature": 0.6426380960735741,
+        "random_strength": 3.389881213267569,
+        "scale_pos_weight": 11.96217778289131,
+        "iterations": 10000,
+        "loss_function": "Logloss",
+        "verbose": 0,
+        "allow_writing_files": false
+    }
+}
