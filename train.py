@@ -19,8 +19,8 @@ warnings.filterwarnings('ignore')
 class Config:
     PROJECT_NAME = "MALLORN GRAND ENSEMBLE (5 SEEDS)"
     DATA_ROOT = 'data'
-    TRAIN_PATH = os.path.join(DATA_ROOT, 'processed_train_v61_reunion.csv')
-    TEST_PATH = os.path.join(DATA_ROOT, 'processed_test_v61_reunion.csv')
+    TRAIN_PATH = os.path.join(DATA_ROOT, 'processed_train.csv')
+    TEST_PATH = os.path.join(DATA_ROOT, 'processed_test.csv')
     
     # DANH SÁCH 5 SEED ĐỂ LOẠI BỎ YẾU TỐ MAY MẮN
     SEEDS = [42, 2024, 777, 101, 88]
